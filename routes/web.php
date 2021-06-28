@@ -21,3 +21,4 @@ Route::get('/', [ HomeController::class, 'index' ]);
 
 Route::resource('projects', ProjectsController::class);
 Route::get('projects/{id}/orders', [ ProjectsController::class, 'orders']);
+
